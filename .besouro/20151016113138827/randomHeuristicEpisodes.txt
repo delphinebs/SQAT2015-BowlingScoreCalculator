@@ -18,3 +18,6 @@
 1444989006439 test-addition 1 253 true
 1444989271910 refactoring 3 61 false
 1444989366006 refactoring 2A 3 false
+1444989420203 production 1 20 false
+1444989479363 regression 1 0 true
+1444989495161 regression 1 0 false

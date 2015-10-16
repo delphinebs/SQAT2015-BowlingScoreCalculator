@@ -57,3 +57,7 @@
 1444989271921 refactoring 3 61 true
 1444989271922 refactoring 3 61 true
 1444989366006 refactoring 2A 3 true
+1444989420203 production 1 20 false
+1444989420204 refactoring 2A 20 true
+1444989479363 regression 1 0 true
+1444989495161 regression 1 0 true

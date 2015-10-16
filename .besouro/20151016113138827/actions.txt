@@ -182,3 +182,10 @@ UnitTestSessionAction 1444989366006 TestBowlingScoreCalculator.testIsStrikeIsFal
 EditAction 1444989399537 BowlingGame.java 818 9 6 0
 CompilationAction 1444989402972 BowlingGame.java
 EditAction 1444989416425 BowlingGame.java 827 9 7 0
+UnitTestCaseAction 1444989420202 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989420203 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444989479362 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989479363 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444989495160 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989495161 TestBowlingScoreCalculator OK
+EditAction 1444989533143 TestBowlingScoreCalculator.java 2037 8 13 10
