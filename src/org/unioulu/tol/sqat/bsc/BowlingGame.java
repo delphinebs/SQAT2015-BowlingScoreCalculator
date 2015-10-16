@@ -12,6 +12,7 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		this.frames.add(frame);
+		
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
@@ -19,7 +20,11 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		return frames.get(0).score();//simple test for the 1st game
+		int scoreTotal =0;
+		for (Frame frame:frames){
+			scoreTotal = scoreTotal + frame.score();
+		}
+		return score();//addscore
 	
 	}
 	
