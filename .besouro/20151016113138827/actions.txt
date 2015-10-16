@@ -139,3 +139,6 @@ UnitTestCaseAction 1444988001154 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444988001155 TestBowlingScoreCalculator OK
 RefactoringAction 1444988058012 TestBowlingScoreCalculator.java ADD Frame frame1 FIELD
 EditAction 1444988102372 TestBowlingScoreCalculator.java 1748 7 15 7
+UnitTestCaseAction 1444988106036 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444988106037 TestBowlingScoreCalculator OK
+EditAction 1444988124879 TestBowlingScoreCalculator.java 1700 7 14 7

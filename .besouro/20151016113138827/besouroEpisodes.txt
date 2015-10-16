@@ -26,3 +26,6 @@
 1444987765925 test-first 4 533 true
 1444988001155 test-first 3 201 true
 1444988001156 test-first 3 201 true
+1444988106037 refactoring 1A 48 true
+1444988106038 refactoring 3 48 true
+1444988106039 refactoring 3 48 true
