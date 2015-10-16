@@ -24,7 +24,7 @@ public class BowlingGame {
 		for (Frame frame:frames){
 			scoreTotal = scoreTotal + frame.score();
 		}
-		return score();//addscore
+		return scoreTotal;//addscore
 	
 	}
 	
