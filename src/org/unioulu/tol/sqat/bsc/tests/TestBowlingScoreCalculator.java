@@ -19,5 +19,13 @@ public class TestBowlingScoreCalculator {
 		assertEquals(firstFrame.score(),firstFrame.getFirstThrow()+firstFrame.getSecondThrow() );
 		
 	}
+	
+	@Test
+	public void testIsStrike(){
+		
+		Frame firstFrame=new Frame(0, 5);
+		
+		assertEquals(firstFrame.isStrike(),0);//0 not a strike 1 is a strike
+	}
 
 }
