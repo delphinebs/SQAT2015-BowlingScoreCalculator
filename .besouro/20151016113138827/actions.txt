@@ -105,3 +105,4 @@ RefactoringAction 1444987031473 Frame.java RENAME setBonus(int)=>void getBonus(i
 RefactoringAction 1444987097308 Frame.java REMOVE setBonus() METHOD
 RefactoringAction 1444987097310 Frame.java REMOVE getBonus(int) METHOD
 EditAction 1444987124302 Frame.java 1292 10 13 0
+EditAction 1444987127686 TestBowlingScoreCalculator.java 1241 6 12 6

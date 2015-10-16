@@ -50,5 +50,13 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(firstFrame.isSpare(),true);//attention : false by default
 	}
+	
+	@Test
+	public void testBonusDefault(){
+		
+		Frame firstFrame=new Frame(5, 5);
+		
+		assertEquals(firstFrame.bonus(),0);//attention : false by default
+	}
 
 }
