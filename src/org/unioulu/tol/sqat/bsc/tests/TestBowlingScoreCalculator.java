@@ -14,9 +14,11 @@ public class TestBowlingScoreCalculator {
 	Frame frame3=new Frame(5, 5);//testSpare
 //TEST First Frame
 	@Test
-	public void testCalculateScoreSimplethrow() {
+	public void testCalculateScore() {
 			assertEquals(frame1.score(),frame1.getFirstThrow()+frame1.getSecondThrow() );
 			assertEquals(frame2.score(),frame2.getFirstThrow()+frame2.getSecondThrow() );
+			assertEquals(frame3.score(),frame3.getFirstThrow()+frame3.getSecondThrow() );
+			
 		
 	}
 	

@@ -157,3 +157,7 @@ UnitTestCaseAction 1444988427235 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444988427236 TestBowlingScoreCalculator OK
 EditAction 1444988651832 Frame.java 1345 10 13 0
 EditAction 1444988655167 TestBowlingScoreCalculator.java 1757 7 11 8
+UnitTestCaseAction 1444988661456 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444988661457 TestBowlingScoreCalculator OK
+RefactoringAction 1444988689265 TestBowlingScoreCalculator.java RENAME testCalculateScoreSimplethrow()=>void testCalculateScore() METHOD
+EditAction 1444988692339 TestBowlingScoreCalculator.java 1833 7 12 9
