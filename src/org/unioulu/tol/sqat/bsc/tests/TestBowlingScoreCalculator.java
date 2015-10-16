@@ -8,6 +8,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 import org.junit.Test;
 
 public class TestBowlingScoreCalculator {
+	BowlingGame bowlingGame = new BowlingGame();
 	
 	Frame frame1 =new Frame(0, 5);//simpleframe
 	Frame frame2=new Frame(10, 0);//testStrike
@@ -18,8 +19,7 @@ public class TestBowlingScoreCalculator {
 			assertEquals(frame1.score(),frame1.getFirstThrow()+frame1.getSecondThrow() );
 			assertEquals(frame2.score(),frame2.getFirstThrow()+frame2.getSecondThrow() );
 			assertEquals(frame3.score(),frame3.getFirstThrow()+frame3.getSecondThrow() );
-			
-		
+
 	}
 	
 	//TEST Strike
@@ -32,9 +32,6 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testIsStrikeIsTrueFirstFrame(){
-		
-		
-		
 		assertEquals(frame2.isStrike(),true);
 	}
 	
@@ -64,11 +61,19 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testBowlingGameAddFrame(){
-		BowlingGame bowlingGame = new BowlingGame();
+		
 		bowlingGame.addFrame(frame1);
 		
 		assertEquals(bowlingGame.getFrames().get(0), frame1);//test frame1 added
 	}
+	
+	public void testBowlingGameNoBonus(){
+		bowlingGame.addFrame(frame2);//frame 2 bonus strike
+		bowlingGame.addFrame(frame1);//frame1 no bonus
+		
+		
+		assertEquals(bowlingGame.getFrames().get(1).bonus(), bowlingGame.getFrames().get(1).score());//bonus for frame 1 == frame1.score
+	}	
 	
 /*	@Test
 	public void testBonusDefault(){
