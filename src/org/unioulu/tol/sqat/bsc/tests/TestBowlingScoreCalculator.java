@@ -25,7 +25,7 @@ public class TestBowlingScoreCalculator {
 		
 		Frame firstFrame=new Frame(0, 5);
 		
-		assertEquals(firstFrame.isStrike(),0);//0 not a strike 1 is a strike
+		assertEquals(firstFrame.isStrike(),false);
 	}
 
 }

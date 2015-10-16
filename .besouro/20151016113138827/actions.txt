@@ -52,3 +52,6 @@ RefactoringAction 1444986105694 TestBowlingScoreCalculator.java RENAME test=>voi
 RefactoringAction 1444986108209 TestBowlingScoreCalculator.java RENAME testIs=>void testIsStrike FIELD
 RefactoringAction 1444986112223 TestBowlingScoreCalculator.java RENAME testIsStrike=>void testIsStrike() METHOD
 EditAction 1444986265097 TestBowlingScoreCalculator.java 568 2 4 2
+UnitTestCaseAction 1444986269191 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444986269192 TestBowlingScoreCalculator FAIL
+EditAction 1444986287100 TestBowlingScoreCalculator.java 542 2 4 2
