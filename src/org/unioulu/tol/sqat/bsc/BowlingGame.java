@@ -19,8 +19,8 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		
+		return frames.get(0).score();//simple test for the 1st game
 	}
 	
 	public boolean isNextFrameBonus(){

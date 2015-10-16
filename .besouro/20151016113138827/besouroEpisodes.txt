@@ -43,3 +43,16 @@
 1444988696512 test-addition 1 7 true
 1444989006439 test-addition 1 253 true
 1444989006440 test-addition 1 253 true
+1444989271910 refactoring 3 61 true
+1444989271911 refactoring 3 61 true
+1444989271912 refactoring 3 61 true
+1444989271913 refactoring 3 61 true
+1444989271914 refactoring 3 61 true
+1444989271915 refactoring 3 61 true
+1444989271916 refactoring 1A 61 true
+1444989271917 refactoring 3 61 true
+1444989271918 refactoring 3 61 true
+1444989271919 refactoring 3 61 true
+1444989271920 refactoring 3 61 true
+1444989271921 refactoring 3 61 true
+1444989271922 refactoring 3 61 true

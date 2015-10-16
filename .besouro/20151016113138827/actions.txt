@@ -174,3 +174,6 @@ RefactoringAction 1444989210589 TestBowlingScoreCalculator.java RENAME testBowli
 RefactoringAction 1444989211610 TestBowlingScoreCalculator.java RENAME testBowlingGameAddSc()=>void testBowlingGameAddScore() METHOD
 RefactoringAction 1444989213631 TestBowlingScoreCalculator.java RENAME testBowlingGameAddScore()=>void testBowlingGameAddScoreGame() METHOD
 EditAction 1444989268031 TestBowlingScoreCalculator.java 2042 8 13 10
+UnitTestCaseAction 1444989271909 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989271910 TestBowlingScoreCalculator OK
+EditAction 1444989362164 BowlingGame.java 878 9 7 0
