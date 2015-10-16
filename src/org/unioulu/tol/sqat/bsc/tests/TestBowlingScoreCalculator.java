@@ -90,7 +90,7 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(frame1);//frame 1 no bonus 
 		
 	
-		assertEquals(bowlingGame.getFrames().get(1).bonus(frame2),bowlingGame.getBonus() );//bonus for frame 1 == frame1.score
+		assertEquals(bowlingGame.getFrames().get(1).bonus(frame2), 5 );//bonus for frame 1 == frame1.score
 	}	
 	
 	
