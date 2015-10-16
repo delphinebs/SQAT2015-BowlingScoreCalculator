@@ -85,7 +85,7 @@ public class TestBowlingScoreCalculator {
 	}	
 	
 	@Test
-	public void testBowlingGameAddBonusScoreGameMoreThan2Frame(){
+	public void testBowlingGameAddBonusStrikeScoreGameMoreThan2Frame(){
 		bowlingGame.addFrame(frame2);//frame 2 bonus strike
 		bowlingGame.addFrame(frame1);//frame 1 no bonus 
 		
@@ -93,6 +93,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(bowlingGame.getFrames().get(1).bonus(frame2), 5 );//bonus for frame 1 == frame1.score
 		assertEquals(bowlingGame.isNextFrameBonus(frame2), true);//next frame with a bonus
 	}	
+	
+	public void testBowlingGameAddBonusSpareScoreGameMoreThan2Frame(){
+		bowlingGame.addFrame(frame3);//frame 3 bonus spare
+		bowlingGame.addFrame(frame1);//frame 1 no bonus 
+		
+	
+		assertEquals(bowlingGame.getFrames().get(1).bonus(frame2),0 );//bonus for frame 1 == 
+		
+	}
 	
 	
 	
