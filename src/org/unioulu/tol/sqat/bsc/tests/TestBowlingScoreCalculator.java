@@ -67,6 +67,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(bowlingGame.getFrames().get(0), frame1);//test frame1 added
 	}
 	
+	@Test
 	public void testBowlingGameAddScoreGame(){
 		bowlingGame.addFrame(frame1);//frame 1 no bonus 
 		
