@@ -273,3 +273,4 @@ UnitTestCaseAction 1444991447251 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444991447252 TestBowlingScoreCalculator OK
 RefactoringAction 1444991487842 BowlingGame.java RENAME isNextFrameBonus()=>boolean isNextFrameBonus(Frame) METHOD
 EditAction 1444991889335 BowlingGame.java 1051 9 10 0
+EditAction 1444991893217 TestBowlingScoreCalculator.java 2786 10 20 13
