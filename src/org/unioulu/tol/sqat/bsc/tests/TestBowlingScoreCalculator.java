@@ -28,25 +28,24 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testIsStrikeIsTrueFirstFrame(){
 		
-		Frame firstFrame=new Frame(10, 0);
+		Frame frame2=new Frame(10, 0);
 		
-		assertEquals(firstFrame.isStrike(),true);
+		assertEquals(frame2.isStrike(),true);
 	}
 	
 	@Test
 	public void testIsSpareIsFalse(){
 		
-		Frame firstFrame=new Frame(0, 5);
 		
-		assertEquals(firstFrame.isSpare(),false);//attention : false by default
+		assertEquals(frame1.isSpare(),false);//attention : false by default
 	}
 	
 	@Test
 	public void testIsSpareIsTrue(){
 		
-		Frame firstFrame=new Frame(5, 5);
+		Frame frame3=new Frame(5, 5);
 		
-		assertEquals(firstFrame.isSpare(),true);//attention : false by default
+		assertEquals(frame3.isSpare(),true);//attention : false by default
 	}
 	
 	
@@ -62,7 +61,6 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testBowlingGameAddFrame(){
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame1 =new Frame(0, 5);
 		bowlingGame.addFrame(frame1);
 		
 		assertFalse(bowlingGame.getFrames().isEmpty());//test list empty
