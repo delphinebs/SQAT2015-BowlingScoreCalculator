@@ -55,3 +55,15 @@ EditAction 1444986265097 TestBowlingScoreCalculator.java 568 2 4 2
 UnitTestCaseAction 1444986269191 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444986269192 TestBowlingScoreCalculator FAIL
 EditAction 1444986287100 TestBowlingScoreCalculator.java 542 2 4 2
+UnitTestCaseAction 1444986290706 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986290706 TestBowlingScoreCalculator OK
+RefactoringAction 1444986316467 TestBowlingScoreCalculator.java RENAME testIsStrike()=>void testIsStrikeFalse() METHOD
+RefactoringAction 1444986323481 TestBowlingScoreCalculator.java RENAME testIsStrikeFalse()=>void testIsStrikeFalseDefault() METHOD
+RefactoringAction 1444986327994 TestBowlingScoreCalculator.java RENAME testIsStrikeFalseDefault()=>void testIsStrikeIsFalseDefault() METHOD
+RefactoringAction 1444986333007 TestBowlingScoreCalculator.java RENAME testIsStrikeIsFalseDefault()=>void testIsStrikeIsFalseForDefault() METHOD
+RefactoringAction 1444986344534 TestBowlingScoreCalculator.java ADD void testIsStrikeIsFalseForDefault()/2 METHOD
+RefactoringAction 1444986352549 TestBowlingScoreCalculator.java RENAME testIsStrikeIsFalseForDefault()/2=>void testIsStrikeIsFalse() METHOD
+RefactoringAction 1444986354564 TestBowlingScoreCalculator.java RENAME testIsStrikeIsFalse()=>void testIsStrikeIsFalseFist() METHOD
+RefactoringAction 1444986356580 TestBowlingScoreCalculator.java RENAME testIsStrikeIsFalseFist()=>void testIsStrikeIsFalseFistFrame() METHOD
+RefactoringAction 1444986374255 TestBowlingScoreCalculator.java RENAME testIsStrikeIsFalseFistFrame()=>void testIsStrikeIsTrueFistFrame() METHOD
+EditAction 1444986394953 TestBowlingScoreCalculator.java 744 3 6 3

@@ -21,11 +21,18 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testIsStrike(){
+	public void testIsStrikeIsFalseForDefault(){
 		
 		Frame firstFrame=new Frame(0, 5);
 		
-		assertEquals(firstFrame.isStrike(),false);
+		assertEquals(firstFrame.isStrike(),false);//false by default
+	}
+	@Test
+	public void testIsStrikeIsTrueFistFrame(){
+		
+		Frame firstFrame=new Frame(10, 0);
+		
+		assertEquals(firstFrame.isStrike(),false);//false by default
 	}
 
 }
