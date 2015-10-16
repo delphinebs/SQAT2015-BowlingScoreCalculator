@@ -7,6 +7,8 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 import org.junit.Test;
 
+//finished at 13:41
+
 public class TestBowlingScoreCalculator {
 	BowlingGame bowlingGame = new BowlingGame();
 	
