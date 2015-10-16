@@ -19,7 +19,7 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		
+		//	return frames.get(0).score();//simple test for the 1st game
 	return 0;
 	}
 	
