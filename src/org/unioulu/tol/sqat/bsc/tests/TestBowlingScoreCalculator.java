@@ -2,6 +2,7 @@ package org.unioulu.tol.sqat.bsc.tests;
 
 import static org.junit.Assert.*;
 
+import org.unioulu.tol.sqat.bsc.BowlingGame;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 import org.junit.Test;
@@ -9,9 +10,9 @@ import org.junit.Test;
 public class TestBowlingScoreCalculator {
 	
 	
-
+	//TEST First Frame
 	@Test
-	public void testCalculaateSimplethrow() {
+	public void testCalculateScoreSimplethrow() {
 		
 		Frame firstFrame=new Frame(0, 5);
 		
@@ -19,6 +20,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(firstFrame.score(),firstFrame.getFirstThrow()+firstFrame.getSecondThrow() );
 		
 	}
+	
 	
 	@Test
 	public void testIsStrikeIsFalseForDefault(){
@@ -51,12 +53,22 @@ public class TestBowlingScoreCalculator {
 		assertEquals(firstFrame.isSpare(),true);//attention : false by default
 	}
 	
+	
+	
+	//TEST START BoWling game
 	@Test
+	public void testBowlingGameEmpty(){
+		BowlingGame bowlingGame = new BowlingGame();
+		
+		assertTrue(bowlingGame.getFrames().isEmpty());//test list empty
+	}
+	
+/*	@Test
 	public void testBonusDefault(){
 		
 		Frame firstFrame=new Frame(5, 5);
 		
 		assertEquals(firstFrame.bonus(),0);//attention : false by default
-	}
+	}*/
 
 }
