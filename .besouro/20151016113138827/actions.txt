@@ -89,3 +89,19 @@ UnitTestSessionAction 1444986643385 TestBowlingScoreCalculator OK
 RefactoringAction 1444986655205 TestBowlingScoreCalculator.java ADD void testIsSpareIsFalse()/2 METHOD
 RefactoringAction 1444986659722 TestBowlingScoreCalculator.java RENAME testIsSpareIsFalse()/2=>void testIsSpareIsTrue() METHOD
 EditAction 1444986673589 TestBowlingScoreCalculator.java 1078 5 10 5
+UnitTestCaseAction 1444986677209 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986677210 TestBowlingScoreCalculator OK
+RefactoringAction 1444986753841 TestBowlingScoreCalculator.java ADD void testIsSpareIsTrue()/2 METHOD
+RefactoringAction 1444986767859 TestBowlingScoreCalculator.java RENAME testIsSpareIsTrue()/2=>void testBonusIsSpareIsTrue() METHOD
+RefactoringAction 1444986769377 TestBowlingScoreCalculator.java RENAME testBonusIsSpareIsTrue()=>void testBonusIfIsSpareIsTrue() METHOD
+RefactoringAction 1444986943011 TestBowlingScoreCalculator.java RENAME testBonusIfIsSpareIsTrue()=>void testBonusDefault() METHOD
+RefactoringAction 1444987003882 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1444987003884 Frame.java ADD void setFirstThrow(int)/2 METHOD
+RefactoringAction 1444987008401 Frame.java RENAME getFirstThrow()/2=>int bonus()/2 METHOD
+RefactoringAction 1444987019419 Frame.java RENAME setFirstThrow(int)/2=>void setBonus(int) METHOD
+RefactoringAction 1444987023939 Frame.java RENAME bonus()/2=>int onus() METHOD
+RefactoringAction 1444987025454 Frame.java RENAME onus()=>int setBonus() METHOD
+RefactoringAction 1444987031473 Frame.java RENAME setBonus(int)=>void getBonus(int) METHOD
+RefactoringAction 1444987097308 Frame.java REMOVE setBonus() METHOD
+RefactoringAction 1444987097310 Frame.java REMOVE getBonus(int) METHOD
+EditAction 1444987124302 Frame.java 1292 10 13 0

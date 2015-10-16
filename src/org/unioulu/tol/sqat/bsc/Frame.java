@@ -49,6 +49,7 @@ public class Frame {
 	
 	//getter and setter
 
+
 	public int getFirstThrow() {
 		return firstThrow;
 	}
