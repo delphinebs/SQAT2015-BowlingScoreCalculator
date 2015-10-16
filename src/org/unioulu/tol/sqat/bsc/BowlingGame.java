@@ -42,6 +42,7 @@ public class BowlingGame {
 	}
 
 	public Frame getBonus() {
+		
 		return bonus;
 	}
 
