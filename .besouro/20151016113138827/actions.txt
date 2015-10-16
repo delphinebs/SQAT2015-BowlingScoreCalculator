@@ -130,3 +130,7 @@ UnitTestSessionAction 1444987765925 TestBowlingScoreCalculator OK
 RefactoringAction 1444987800058 TestBowlingScoreCalculator.java ADD void testBowlingGameEmpty()/2 METHOD
 RefactoringAction 1444987804077 TestBowlingScoreCalculator.java RENAME testBowlingGameEmpty()/2=>void testBowlingGameNoEmpty() METHOD
 EditAction 1444987893024 TestBowlingScoreCalculator.java 1765 7 16 7
+UnitTestCaseAction 1444987896750 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444987896751 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444987916211 TestBowlingScoreCalculator.java RENAME testBowlingGameNoEmpty()=>void testBowlingGameAddFrame() METHOD
+EditAction 1444987994090 BowlingGame.java 847 9 7 0
