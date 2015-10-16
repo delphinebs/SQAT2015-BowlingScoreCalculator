@@ -2,13 +2,22 @@ package org.unioulu.tol.sqat.bsc.tests;
 
 import static org.junit.Assert.*;
 
+import org.unioulu.tol.sqat.bsc.Frame;
+
 import org.junit.Test;
 
 public class TestBowlingScoreCalculator {
+	
+	
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testCalculaateSimplethrow() {
+		
+		Frame firstFrame=new Frame(0, 5);
+		
+		
+		assertEquals(firstFrame.score(),firstFrame.getFirstThrow()+getSecondThrow() );
+		
 	}
 
 }

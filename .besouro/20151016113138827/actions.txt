@@ -30,3 +30,4 @@ RefactoringAction 1444985442565 TestBowlingScoreCalculator.java RENAME First=>Fr
 RefactoringAction 1444985446578 TestBowlingScoreCalculator.java RENAME first=>Frame firstFrame FIELD
 RefactoringAction 1444985473651 TestBowlingScoreCalculator.java REMOVE firstFrame FIELD
 EditAction 1444985740829 Frame.java 828 6 7 0
+EditAction 1444985744327 TestBowlingScoreCalculator.java 395 1 2 1
