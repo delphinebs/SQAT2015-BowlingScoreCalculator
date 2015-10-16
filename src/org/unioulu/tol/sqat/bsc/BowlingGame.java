@@ -28,8 +28,12 @@ public class BowlingGame {
 	
 	}
 	
-	public boolean isNextFrameBonus(){
-		//to be implemented
+	public boolean isNextFrameBonus(Frame frameCurrent){
+		if(frameCurrent.isStrike()){
+			//for now just strike, to do or spare
+			return true;
+		}
+			
 		return false;
 	}
 
