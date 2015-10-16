@@ -41,7 +41,7 @@ public class Frame {
 	}
 
 	//bonus throws
-	public int bonus(Frame frameBefore){//to be tested
+	public int bonus(Frame frameBefore){//bonus on this frame
 		if(frameBefore.isStrike()==true){//test strike
 		return this.firstThrow+this.secondThrow ;
 		}
