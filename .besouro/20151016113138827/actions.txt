@@ -31,3 +31,13 @@ RefactoringAction 1444985446578 TestBowlingScoreCalculator.java RENAME first=>Fr
 RefactoringAction 1444985473651 TestBowlingScoreCalculator.java REMOVE firstFrame FIELD
 EditAction 1444985740829 Frame.java 828 6 7 0
 EditAction 1444985744327 TestBowlingScoreCalculator.java 395 1 2 1
+CompilationAction 1444985747582 TestBowlingScoreCalculator.java
+CompilationAction 1444985747583 TestBowlingScoreCalculator.java
+RefactoringAction 1444985812843 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444985812844 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1444985812845 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1444985812845 Frame.java ADD void setSecondThrow(int) METHOD
+CompilationAction 1444985840696 TestBowlingScoreCalculator.java
+CompilationAction 1444985840922 TestBowlingScoreCalculator.java
+CompilationAction 1444985840923 TestBowlingScoreCalculator.java
+EditAction 1444985915341 Frame.java 1150 10 11 0

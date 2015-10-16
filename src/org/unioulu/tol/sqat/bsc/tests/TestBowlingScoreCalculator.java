@@ -16,7 +16,7 @@ public class TestBowlingScoreCalculator {
 		Frame firstFrame=new Frame(0, 5);
 		
 		
-		assertEquals(firstFrame.score(),firstFrame.getFirstThrow()+getSecondThrow() );
+		assertEquals(firstFrame.score(),firstFrame.getFirstThrow()+firstFrame.getSecondThrow() );
 		
 	}
 
