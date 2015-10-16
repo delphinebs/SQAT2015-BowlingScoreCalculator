@@ -9,7 +9,9 @@ import org.junit.Test;
 
 public class TestBowlingScoreCalculator {
 	
-	Frame frame1 =new Frame(0, 5);
+	Frame frame1 =new Frame(0, 5);//simpleframe
+	Frame frame2=new Frame(10, 0);//testStrike
+	Frame frame3=new Frame(5, 5);//testSpare
 	//TEST First Frame
 	@Test
 	public void testCalculateScoreSimplethrow() {
@@ -28,7 +30,7 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testIsStrikeIsTrueFirstFrame(){
 		
-		Frame frame2=new Frame(10, 0);
+		
 		
 		assertEquals(frame2.isStrike(),true);
 	}
@@ -42,9 +44,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testIsSpareIsTrue(){
-		
-		Frame frame3=new Frame(5, 5);
-		
+			
 		assertEquals(frame3.isSpare(),true);//attention : false by default
 	}
 	
