@@ -68,12 +68,20 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testBowlingGameAddScoreGame(){
+	public void testBowlingGameAddScoreGameSimple(){
 		bowlingGame.addFrame(frame1);//frame 1 no bonus 
 		
 	
 		assertEquals(bowlingGame.getFrames().get(0).score(), bowlingGame.score() );//bonus for frame 1 == frame1.score
 	}	
+	
+	public void testBowlingGameAddScoreGameMoreThan2Frame(){
+		bowlingGame.addFrame(frame1);//frame 1 no bonus 
+		bowlingGame.addFrame(frame2);//frame 2 bonus strike
+	
+		assertEquals(bowlingGame.getFrames().get(0).score()+bowlingGame.getFrames().get(1).score(), bowlingGame.score() );//bonus for frame 1 == frame1.score
+	}	
+	
 	
 /*	@Test
 	public void testBonusDefault(){
