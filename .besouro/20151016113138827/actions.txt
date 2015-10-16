@@ -260,3 +260,4 @@ CompilationAction 1444991092603 TestBowlingScoreCalculator.java
 UnitTestCaseAction 1444991131229 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444991131230 TestBowlingScoreCalculator OK
 EditAction 1444991297693 Frame.java 1446 10 14 0
+EditAction 1444991305970 TestBowlingScoreCalculator.java 2717 10 19 12
