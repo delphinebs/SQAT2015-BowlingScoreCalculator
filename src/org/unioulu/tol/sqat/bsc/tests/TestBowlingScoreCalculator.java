@@ -25,7 +25,7 @@ public class TestBowlingScoreCalculator {
 		
 		Frame firstFrame=new Frame(0, 5);
 		
-		assertEquals(firstFrame.isStrike(),false);//false by default
+		assertEquals(firstFrame.isStrike(),false);//attention : false by default
 	}
 	@Test
 	public void testIsStrikeIsTrueFirstFrame(){
@@ -33,6 +33,14 @@ public class TestBowlingScoreCalculator {
 		Frame firstFrame=new Frame(10, 0);
 		
 		assertEquals(firstFrame.isStrike(),true);
+	}
+	
+	@Test
+	public void testIsSpareIsFalse(){
+		
+		Frame firstFrame=new Frame(0, 5);
+		
+		assertEquals(firstFrame.isSpare(),false);//attention : false by default
 	}
 
 }
