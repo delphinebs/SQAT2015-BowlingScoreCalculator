@@ -84,3 +84,8 @@ EditAction 1444986588280 TestBowlingScoreCalculator.java 909 4 8 4
 UnitTestCaseAction 1444986591857 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444986591858 TestBowlingScoreCalculator OK
 EditAction 1444986639672 Frame.java 1290 10 13 0
+UnitTestCaseAction 1444986643384 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986643385 TestBowlingScoreCalculator OK
+RefactoringAction 1444986655205 TestBowlingScoreCalculator.java ADD void testIsSpareIsFalse()/2 METHOD
+RefactoringAction 1444986659722 TestBowlingScoreCalculator.java RENAME testIsSpareIsFalse()/2=>void testIsSpareIsTrue() METHOD
+EditAction 1444986673589 TestBowlingScoreCalculator.java 1078 5 10 5
