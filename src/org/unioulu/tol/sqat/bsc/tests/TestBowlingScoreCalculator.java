@@ -12,21 +12,22 @@ public class TestBowlingScoreCalculator {
 	Frame frame1 =new Frame(0, 5);//simpleframe
 	Frame frame2=new Frame(10, 0);//testStrike
 	Frame frame3=new Frame(5, 5);//testSpare
-	//TEST First Frame
+//TEST First Frame
 	@Test
 	public void testCalculateScoreSimplethrow() {
-		
-			
-		
-		assertEquals(frame1.score(),frame1.getFirstThrow()+frame1.getSecondThrow() );
+			assertEquals(frame1.score(),frame1.getFirstThrow()+frame1.getSecondThrow() );
+			assertEquals(frame2.score(),frame2.getFirstThrow()+frame2.getSecondThrow() );
 		
 	}
 	
-	
+	//TEST Strike
 	@Test
 	public void testIsStrikeIsFalseForDefault(){
 			assertEquals(frame1.isStrike(),false);//attention : false by default
 	}
+	
+	
+	
 	@Test
 	public void testIsStrikeIsTrueFirstFrame(){
 		
@@ -35,6 +36,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(frame2.isStrike(),true);
 	}
 	
+	//TEST Spare
 	@Test
 	public void testIsSpareIsFalse(){
 		
@@ -50,7 +52,7 @@ public class TestBowlingScoreCalculator {
 	
 	
 	
-	//TEST START BoWling game
+//TEST START BoWling game
 	@Test
 	public void testBowlingGameEmpty(){
 		BowlingGame bowlingGame = new BowlingGame();
