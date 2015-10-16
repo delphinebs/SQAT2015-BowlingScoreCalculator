@@ -125,3 +125,8 @@ RefactoringAction 1444987737803 BowlingGame.java ADD Frame getBonus() METHOD
 RefactoringAction 1444987737805 BowlingGame.java ADD void setBonus(Frame) METHOD
 EditAction 1444987757152 BowlingGame.java 843 9 6 0
 EditAction 1444987762282 TestBowlingScoreCalculator.java 1523 6 12 6
+UnitTestCaseAction 1444987765924 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444987765925 TestBowlingScoreCalculator OK
+RefactoringAction 1444987800058 TestBowlingScoreCalculator.java ADD void testBowlingGameEmpty()/2 METHOD
+RefactoringAction 1444987804077 TestBowlingScoreCalculator.java RENAME testBowlingGameEmpty()/2=>void testBowlingGameNoEmpty() METHOD
+EditAction 1444987893024 TestBowlingScoreCalculator.java 1765 7 16 7

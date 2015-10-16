@@ -63,6 +63,15 @@ public class TestBowlingScoreCalculator {
 		assertTrue(bowlingGame.getFrames().isEmpty());//test list empty
 	}
 	
+	@Test
+	public void testBowlingGameNoEmpty(){
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame1 =new Frame(0, 0);
+		bowlingGame.addFrame(frame1);
+		
+		assertFalse(bowlingGame.getFrames().isEmpty());//test list empty
+	}
+	
 /*	@Test
 	public void testBonusDefault(){
 		
