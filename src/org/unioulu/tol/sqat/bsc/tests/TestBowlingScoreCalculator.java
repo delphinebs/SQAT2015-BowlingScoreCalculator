@@ -64,7 +64,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testBowlingGameNoEmpty(){
+	public void testBowlingGameAddFrame(){
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame1 =new Frame(0, 0);
 		bowlingGame.addFrame(frame1);
