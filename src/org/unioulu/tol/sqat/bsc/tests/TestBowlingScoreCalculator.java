@@ -9,15 +9,14 @@ import org.junit.Test;
 
 public class TestBowlingScoreCalculator {
 	
-	
+	Frame frame1 =new Frame(0, 5);
 	//TEST First Frame
 	@Test
 	public void testCalculateScoreSimplethrow() {
 		
-		Frame firstFrame=new Frame(0, 5);
+			
 		
-		
-		assertEquals(firstFrame.score(),firstFrame.getFirstThrow()+firstFrame.getSecondThrow() );
+		assertEquals(frame1.score(),frame1.getFirstThrow()+frame1.getSecondThrow() );
 		
 	}
 	
@@ -66,7 +65,7 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testBowlingGameAddFrame(){
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame1 =new Frame(0, 0);
+		Frame frame1 =new Frame(0, 5);
 		bowlingGame.addFrame(frame1);
 		
 		assertFalse(bowlingGame.getFrames().isEmpty());//test list empty
